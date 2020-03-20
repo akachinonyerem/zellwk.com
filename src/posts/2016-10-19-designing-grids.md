@@ -238,8 +238,8 @@ By now, you might have noticed that **both buzzword-filled approaches suck**. So
 **The first approach** is to combine the plusses from both adaptive and fluid approaches. That means you resize columns and gutters proportionally while viewport width changes. Then, at a specific breakpoint where your design fails, you change the number of columns and correct your design accordingly. For the lack of a better word, let's call this the **hybrid approach** Here's what it looks like:
 
 <!-- Show content + sidebar components + the grid-->
-<figure><img src="/images/2016/designing-grids/grid-hybrid.gif" alt="Hyrid Grid">
-  <figcaption>Hyrid Grid</figcaption>
+<figure><img src="/images/2016/designing-grids/grid-hybrid.gif" alt="Hybrid Grid">
+  <figcaption>Hybrid Grid</figcaption>
 </figure>
 
 Recalculating the number of columns at different breakpoints can be difficult if you're creating your grid from scratch. Susy can help you make things easier, like this:
